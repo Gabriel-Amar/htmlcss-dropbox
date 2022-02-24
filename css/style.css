@@ -243,12 +243,16 @@ nav{
     padding-right: 20px;
 }
 /* /radio */
+/* section column */
 .column {
     float: left;
     width: calc(100% / 3 - 60px);
     padding: 0 40px 140px;
     line-height: 45px;
     margin: 28px;
+}
+.column.longer{
+    padding-bottom: 230px;
 }
 .row:after {
     content: "";
@@ -290,7 +294,63 @@ h5{
     color: blue;
     padding-right: 7px;
 } 
-h4{
+.centeredcolumn h4{
     width: 100%;
     border-bottom: 1px solid rgb(207 207 207);
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 8px;
+}
+.centeredcolumn{
+    margin-top: 10px;
+}
+.centeredcolumn h2{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.centeredcolumn h5{
+    padding-top: 20px;
+    padding-left: 25px;
+}
+.centeredcolumn div{
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+.centeredcolumn a{
+    float: right;
+    position: relative;
+    bottom: 26px;
+    right: 40px;
+    color: white;
+    text-decoration: none;
+}
+/* section guys */
+.raw.debug{
+    width: 65%;
+    margin: 0 auto;
+}
+.guys{
+    width: 50%;
+    float: left;
+    padding-top: 150px;
+}
+.right-text{
+    width: 50%;
+    float: right;
+    padding-top: 210px;
+    padding-left: 123px;
+}
+.guys img{
+    width: 600px;
+}
+.right-text div{
+    padding-top: 30px;
+    padding-bottom: 38px;
+}
+.right-text a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
 }
