@@ -21,6 +21,9 @@ body{
     display: table;
     clear: both;
 }
+.debug{
+    border: 1px solid rgb(207 207 207)
+}
 /* utility */
 /* btn color #0061ff
 background color #b4d0e7 */
@@ -111,6 +114,7 @@ nav{
 .p-jumbo p:last-child{
     margin-top: 20px;
 }
+/* main */
 .ctext{
     font-size: 28px;
     padding-top: 120px;
@@ -239,4 +243,54 @@ nav{
     padding-right: 20px;
 }
 /* /radio */
-
+.column {
+    float: left;
+    width: calc(100% / 3 - 60px);
+    padding: 0 40px 140px;
+    line-height: 45px;
+    margin: 28px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column h4{
+    text-align: center;
+    font-size: 15px;
+}
+.price{
+    font-weight: bolder;
+}
+.border-bottom{
+    width: 20%;
+    border-bottom: 1px solid rgb(207 207 207);
+    padding-top: 27px;
+}
+ul{
+    list-style-type: none;
+    padding-bottom: 34px;
+}
+.spazio{
+    padding-bottom: 35px;
+}
+.column a{
+    color: white;
+    text-decoration: none;
+}
+a.blue{
+    color: blue;
+}
+h5{
+    font-size: 17px;
+    padding-top: 50px;
+}
+.check li::before{
+    content: "\2714";
+    color: blue;
+    padding-right: 7px;
+} 
+h4{
+    width: 100%;
+    border-bottom: 1px solid rgb(207 207 207);
+}
