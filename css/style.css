@@ -279,7 +279,7 @@ nav{
     font-weight: bolder;
 }
 .border-bottom{
-    width: 20%;
+    width: 65px;
     border-bottom: 1px solid rgb(207 207 207);
     padding-top: 27px;
 }
@@ -388,4 +388,95 @@ h5{
 }
 .card h1{
     padding-bottom: 25px;
+}
+/* section col */
+.col-left{
+    width: 30%;
+    height: 30vw;
+    float: left;
+}
+.col-center{
+    width: 40%;
+    float: left;
+    height: 30vw;
+    overflow-y: auto;
+    background-color: #f5f5f5;
+}
+.col-right{
+    width: 30%;
+    height: 30vw;
+    float: left;
+}
+.quadrato{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+.quadrato img{
+    width: 7vw;
+    line-height: 30vw;
+    
+}
+.col-center img{
+    width: 7vw;
+    
+}
+.color1{
+    background-color: #a2d39b;
+}
+.color2{
+    background-color: #61082b;
+}
+.color3{
+    background-color: #0093ce;
+}
+.color4{
+    background-color: #ff1c1c;
+}
+.color5{
+    background-color: #d5001f;
+}
+.color6{
+    background-color: #b4d0e7;
+}
+.color7{
+    background-color: #0d2481;
+}
+.color8{
+    background-color: #ffd830;
+}
+.design img{
+    position: relative;
+    top: 42%;
+    left: 25%;
+}
+.ari img{
+    position: relative;
+    top: 38%;
+    left: 25%;
+}
+.asu img{
+    position: relative;
+    top: 31%;
+    left: 26%;
+}
+.pos img{
+    position: relative;
+    top: 46%;
+    left: 25%;
+}
+.container img{
+    padding-top: 70px;
+}
+.col-center .container p{
+    padding-top: 50px;
+}
+.contenitore{
+    padding-top: 70px;
+}
+.link{
+    padding-top: 20px;
+}
+.link a{
+    color: blue;
 }
