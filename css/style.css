@@ -480,3 +480,139 @@ h5{
 .link a{
     color: blue;
 }
+.btext{
+    font-size: 21px;
+    padding-top: 110px;
+}
+.height{
+    height: 645px;
+}
+.btn-right{
+    float: right;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+.containersmall a{
+    text-decoration: none;
+    background-color: white;
+    color: #000000;
+}
+.btext.blue{
+    background-color: #b4d0e7;
+    padding-bottom: 55px;
+}
+/* footer */
+.pad{
+    padding-top: 110px;
+}
+.dropbox{
+    width: 19%;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+}
+.prodotti{
+    width: 19%;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+}
+.azienda{
+    width: 19%;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+}
+.supporto{
+    width: 19%;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+}
+.community{
+    width: 19%;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+}
+.dropbox{
+    width: 19%;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+}
+.foot{
+    background-color: #000000;
+}
+h3{
+    padding-bottom: 20px;
+}
+.container.pad{
+    line-height: 27px;
+}
+.footborder{
+    border: 1px solid #4f4f4f;
+    width: 100px;
+    margin-bottom: 31px;
+    margin-top: 56px;
+}
+
+
+
+
+.select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 120px;
+}    .select select {
+        font-family: 'Arial';
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        padding: 15px 15px;
+        outline: 0;
+        border: 0px hidden #ffffff;
+        border-radius: 0px;
+        background: #000000;
+        color: #a9a9a9;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+        .select select::-ms-expand {
+            display: none;
+        }
+        .select select:hover,
+        .select select:focus {
+            color: #c6c6c6;
+            background: #000000;
+        }
+        .select select:disabled {
+            opacity: 0.9;
+            pointer-events: none;
+        }
+.select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 25px;
+    width: 6px;
+    height: 6px;
+    border: solid #7b7b7b;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.select select:hover ~ .select_arrow,
+.select select:focus ~ .select_arrow {
+    border-color: #bfbfbf;
+}
+.select select:disabled ~ .select_arrow {
+    border-top-color: #cccccc;
+}
+.fa-earth-americas{
+    color: #7b7b7b;
+}
